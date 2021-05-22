@@ -11,3 +11,16 @@ C:\Users\ldavd\source\codeworks\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.
 C:\Users\ldavd\source\codeworks\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.dll
 C:\Users\ldavd\source\codeworks\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.pdb
 C:\Users\ldavd\source\codeworks\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.genruntimeconfig.cache
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.exe
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.deps.json
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.runtimeconfig.json
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.runtimeconfig.dev.json
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.dll
+C:\Users\ldavd\code\apps\CodeLibrary\bin\Debug\netcoreapp3.1\CodeLibrary.pdb
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.csprojAssemblyReference.cache
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.AssemblyInfoInputs.cache
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.AssemblyInfo.cs
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.dll
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.pdb
+C:\Users\ldavd\code\apps\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.genruntimeconfig.cache

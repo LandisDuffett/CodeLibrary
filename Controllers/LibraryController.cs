@@ -62,20 +62,26 @@ namespace CodeLibrary.Controllers
       string description = Console.ReadLine();
       Book newBook = new Book(title, author, description);
       _service.Add(newBook);
-      Console.Write($"Successfully added {title} to the collection");
+      Console.Write($"Successfully added {title} to the collection\n");
     }
 
     private void Info()
     {
       Console.Clear();
-      Console.WriteLine(@"
-      Welcome to C# Library Adminobot.
-      You can perform several basic librarian administrative functions
-      using this service. Just make your selection of task from the 
-      main menu.
-      Press <Enter> to return to the main menu.");
-      Console.ReadLine();
-      GetUserInput();
+      Console.WriteLine(_service.All());
+      Console.WriteLine("Enter the title of any book for a brief description of the book: ");
+      string choice = Console.ReadLine().ToLower();
+      int index = _service.FindIndexByTitle(choice);
+      if (index == -1)
+      {
+        Console.WriteLine("You must enter a valid book title.");
+      }
+      else
+      {
+        Console.Clear();
+        Console.WriteLine(_service.FindTitleByIndex(index));
+        Console.WriteLine(_service.FindDescriptionByIndex(index));
+      }
     }
 
     private void ToggleStatus(bool available)

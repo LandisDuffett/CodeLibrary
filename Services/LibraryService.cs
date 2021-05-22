@@ -49,6 +49,19 @@ namespace CodeLibrary.Services
     {
       Books.Add(newBook);
     }
+
+    internal string All()
+    {
+      string list = "";
+      for (int i = 0; i < Books.Count; i++)
+      {
+        var book = Books[i];
+        {
+          list += $"{i + 1}. {book.Title}\n";
+        }
+      }
+      return list;
+    }
     public LibraryService()
     {
       Books = new List<Book>(){
@@ -62,6 +75,16 @@ namespace CodeLibrary.Services
     internal int FindIndexByTitle(string title)
     {
       return Books.FindIndex(b => b.Title.ToLower() == title);
+    }
+
+    internal string FindDescriptionByIndex(int index)
+    {
+      return Books[index].Description;
+    }
+
+    internal string FindTitleByIndex(int index)
+    {
+      return Books[index].Title;
     }
     internal void Remove(int index)
     {
